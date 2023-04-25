@@ -1,0 +1,219 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./app/components/top-bar-header.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************************/
+.containerTopBar {
+  position: absolute;
+  top: 24px;
+  width: calc(100% - 16px - 16px);
+  background-color: rgb(241, 241, 241, 0.75);
+  margin-left: 32px;
+  margin-right: 32px;
+  border-radius: 5px;
+  border: solid 1px #fdfdfd;
+  padding: 8px 16px 8px 16px;
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.15);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+}
+
+.rightHeaderpart {
+  display: flex;
+  gap: 16px;
+  margin-right: 16px;
+  margin-bottom: 8px;
+}
+
+.tituloTab {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 700;
+  color: #8b8b8b;
+}
+
+.tituloSubTab {
+  font-size: 22px;
+  margin: 0;
+}
+
+.selectorSitio {
+  margin-top: 16px;
+  display: flex;
+  gap: 16px;
+}
+
+.selectorSitio label {
+  font-size: 12px;
+  margin: 0;
+  color: #303e54;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.containerSitio {
+  display: flex;
+  align-items: center;
+}
+
+.radioButtonSitio {
+  margin: 0;
+  margin-right: 4px;
+  width: 16px;
+  height: 16px;
+  transition: 0.2s all linear;
+  accent-color: #303e54;
+}
+.radioButtonSitio:checked {
+  background-color: #303e54;
+}
+
+.logoTopBar {
+  height: 24px;
+  width: auto;
+  cursor: pointer;
+}
+
+/*!******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[3].oneOf[13].use[3]!./app/components/nav-menu-mobile.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************/
+.containerNavMenuMobile {
+  background-color: #1c1c1cce;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: absolute;
+  z-index: 99;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInMenu ease 0.3s;
+}
+.navigationMenu {
+  padding: 0px;
+  margin: 0;
+  width: 100%;
+}
+
+.itemMenuMobile {
+  list-style: none;
+  color: #fdfdfd;
+  font-size: 32px;
+  font-weight: 300;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.logoMenuMobile {
+  height: 25px;
+  width: 25px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  z-index: 11;
+}
+.btnCerrarMenuMobile {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  height: 30px;
+  width: auto;
+  filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(166deg) brightness(104%) contrast(104%);
+}
+
+.containerSettingsMobile {
+  display: none;
+  padding-top: 16px;
+  margin-bottom: 16px;
+  flex-direction: column;
+  align-items: flex-start;
+  box-shadow: 5px 5px 10px #3e3e3e2d;
+  background-color: rgb(241, 241, 241, 0.75);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  position: fixed;
+  z-index: 3;
+  width: 100%;
+}
+.margenesLaterales {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.containerHeader {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+.logoWuruMobile {
+  width: 100px;
+  height: auto;
+}
+.containerInstitucion {
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+.tituloIntitucion {
+  color: #8b8b8b;
+  font-size: 12px;
+  margin: 0;
+  font-weight: 500;
+}
+.nombreInstitucion {
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0;
+}
+.tituloSeccion {
+  font-size: 22px;
+  margin: 0;
+  font-weight: 900;
+  margin-bottom: 4px;
+}
+.selectorSitioMobile {
+  width: 100%;
+  background: none;
+  border: none;
+  height: 35px;
+  font-size: 14px;
+  font-weight: 900;
+  padding: 8px 16px 8px 16px;
+  background-color: rgba(255, 255, 255, 0.769);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  background-image: url(/_next/static/media/expand_more_FILL0_wght400_GRAD0_opsz48.3be832d1.svg);
+  background-repeat: no-repeat;
+  background-position-x: 96%;
+  background-position-y: 50%;
+  background-size: 20px;
+}
+
+.selectorSitioMobile:focus {
+  outline: none;
+}
+
+/* Transitions ------------------------------------------------*/
+
+@keyframes fadeInMenu {
+  0% {
+    opacity: 0;
+    transform: translatex(150px);
+  }
+  100% {
+    opacity: 1;
+    transform: translatex(0px);
+  }
+}
+

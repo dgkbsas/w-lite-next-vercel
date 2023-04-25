@@ -1,0 +1,660 @@
+Colores:
+#76BD7D - verde
+#DADC75 - amarillo verdoso
+#EAAB7E - naranja
+#EA9ADD - magenta
+#EB7575 - rojo
+#92C1D0 - celeste
+#6699C3 - azul
+#49307d - violeta recomendaciones
+
+
+
+"links": [
+    {
+      "label": "Home",
+      "route": "/",
+      "labelChica": "H",
+      "title": "Home",
+      "section": "HOME"
+    },
+    {
+      "label": "Estimador",
+      "route": "/tools/estimator",
+      "labelChica": "E",
+      "title": "Estimador",
+      "section": "TOOLS"
+    },
+    {
+      "label": "DxI",
+      "route": "/reportes/dxi",
+      "labelChica": "D",
+      "title": "Diagnostico por Imágenes",
+      "section": "REPORTES"
+    }
+  ],
+
+      {
+      "id": "sitio02",
+      "name": "sitiosBar",
+      "value": "sitio02",
+      "titleSitio": "Vicente Lopez",
+      "dxi": {
+        "tc": [
+          {
+            "modalidad": "tc",
+            "ultimaCarga": "01 de Enero del 2023 - tc02"
+          },
+          {
+            "subtitle": "AGENDAMIENTO",
+            "title": "ESPERA DE TURNOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "14",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "10%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "20",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "ADMISIÓN",
+            "title": "ESPERA EN SALA",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "21",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "02%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación al mes anterior",
+            "valor03benchmark": "18",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "REALIZACIÓN DE ESTUDIOS",
+            "title": "VOLUMEN",
+            "info01": "",
+            "info02": "",
+            "valor01": "15",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Estudios realizados por tomógrafo / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "12%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "13",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "UTILIZACIÓN",
+            "info01": "",
+            "info02": "",
+            "valor01": "56%",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Utilizado  del total del tomógrafo / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "08%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "68%",
+            "info01valor03benchmark": "Utilizado del total",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "subtitle": "INFORMES",
+            "title": "TIEMPO DE ENTREGA",
+            "info01": "",
+            "info02": "",
+            "valor01": "25",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Informes realizados por profesional / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "05%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "35",
+            "info01valor03benchmark": "Informes por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "ATRASOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "02",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de retraso en la entrega de estudios",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "05%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "02",
+            "info01valor03benchmark": "Días de retraso",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ],
+        "rm": [
+          {
+            "modalidad": "rm",
+            "ultimaCarga": "10 de febrero del 2023 - rm02"
+          },
+          {
+            "subtitle": "AGENDAMIENTO ",
+            "title": "ESPERA DE TURNOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "11",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "07%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "12",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "ADMISIÓN",
+            "title": "ESPERA EN SALA",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "25",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "02%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "13",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "REALIZACIÓN DE ESTUDIOS",
+            "title": "VOLUMEN",
+            "info01": "",
+            "info02": "",
+            "valor01": "32",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Estudios realizados por resonador / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "15%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "13",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "UTILIZACIÓN",
+            "info01": "",
+            "info02": "",
+            "valor01": "70%",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Utilizado  del total del resonador / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "08%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "75%",
+            "info01valor03benchmark": "Utilizado del total",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "subtitle": "INFORMES",
+            "title": "TIEMPO DE ENTREGA",
+            "info01": "",
+            "info02": "",
+            "valor01": "40",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Informes realizados por profesional / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "25%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "35",
+            "info01valor03benchmark": "Informes por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado 06?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta 06?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "ATRASOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "05",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de retraso en la entrega de estudios",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "05%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "02",
+            "info01valor03benchmark": "Días de retraso",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sitio03",
+      "name": "sitiosBar",
+      "value": "sitio03",
+      "titleSitio": "España",
+      "dxi": {
+        "tc": [
+          {
+            "modalidad": "tc",
+            "ultimaCarga": "01 de Enero del 2023 - tc03"
+          },
+          {
+            "subtitle": "AGENDAMIENTO",
+            "title": "ESPERA DE TURNOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "14",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "10%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "20",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta tc03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "ADMISIÓN",
+            "title": "ESPERA EN SALA",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "21",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "02%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación al mes anterior",
+            "valor03benchmark": "18",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta tc03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "REALIZACIÓN DE ESTUDIOS",
+            "title": "VOLUMEN",
+            "info01": "",
+            "info02": "",
+            "valor01": "15",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Estudios realizados por tomógrafo / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "12%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "13",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta tc03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "UTILIZACIÓN",
+            "info01": "",
+            "info02": "",
+            "valor01": "56%",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Utilizado  del total del tomógrafo / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "08%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "68%",
+            "info01valor03benchmark": "Utilizado del total",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "subtitle": "INFORMES",
+            "title": "TIEMPO DE ENTREGA",
+            "info01": "",
+            "info02": "",
+            "valor01": "25",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Informes realizados por profesional / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "05%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "35",
+            "info01valor03benchmark": "Informes por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado tc03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta tc03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "ATRASOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "02",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de retraso en la entrega de estudios",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "05%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "02",
+            "info01valor03benchmark": "Días de retraso",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ],
+        "rm": [
+          {
+            "modalidad": "rm",
+            "ultimaCarga": "10 de febrero del 2023 - rm03"
+          },
+          {
+            "subtitle": "AGENDAMIENTO",
+            "title": "ESPERA DE TURNOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "11",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "07%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "12",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta rm03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "ADMISIÓN",
+            "title": "ESPERA EN SALA",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "25",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "02%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "13",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta rm03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "REALIZACIÓN DE ESTUDIOS",
+            "title": "VOLUMEN",
+            "info01": "",
+            "info02": "",
+            "valor01": "32",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Estudios realizados por resonador / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "15%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "13",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta rm03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "UTILIZACIÓN",
+            "info01": "",
+            "info02": "",
+            "valor01": "70%",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Utilizado  del total del resonador / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "08%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "75%",
+            "info01valor03benchmark": "Utilizado del total",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "subtitle": "INFORMES",
+            "title": "TIEMPO DE ENTREGA",
+            "info01": "",
+            "info02": "",
+            "valor01": "40",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Informes realizados por profesional / día",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "25%",
+            "tipoEvolucion02": "buena",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "35",
+            "info01valor03benchmark": "Informes por día",
+            "info02valor03benchmark": "Promedio último mes",
+            "verMas": [
+              {
+                "pregunta": "Cuanto tiempo tengo rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo utilizado rm03?"
+              },
+              {
+                "pregunta": "Cuanto tiempo falta rm03?"
+              }
+            ]
+          },
+          {
+            "subtitle": "",
+            "title": "ATRASOS",
+            "info01": "",
+            "info02": "",
+            "valor01": "05",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Días de retraso en la entrega de estudios",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "05%",
+            "tipoEvolucion02": "mala",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "valor03benchmark": "02",
+            "info01valor03benchmark": "Días de retraso",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ]
+      }
+    }

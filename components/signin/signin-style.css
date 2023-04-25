@@ -1,0 +1,93 @@
+.containerLogIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.cardLogIn {
+  background-color: #f1f1f1;
+  width: 400px;
+  padding: 16px;
+  border-radius: 1.2rem;
+  box-shadow: 0 1rem 1.5rem rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.logoWuru {
+  height: 39.5px;
+  width: auto;
+  margin: 2.8rem 0rem 4rem 0rem;
+}
+.errorMsg {
+  color: #eb7575;
+  font-size: 12px;
+  position: absolute;
+  top: 110px;
+}
+.formSignIn {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+.inputDiv {
+  position: relative;
+  width: 100%;
+  height: 39px;
+  border: solid 0.7px #8b8b8b;
+  border-radius: 0.3rem;
+  background-color: #f8f8f8;
+}
+.inputTitle {
+  position: absolute;
+  font-size: 12px;
+  background-color: #f1f1f1;
+  top: -8px;
+  left: 8px;
+  padding: 0 3px;
+  border-radius: 1px;
+  color: #8b8b8b;
+}
+.input {
+  background: none;
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding: 0px 16px 0px 16px;
+  overflow: hidden;
+  border-radius: 0.3rem;
+  font-size: 14px;
+}
+.input:focus {
+  outline: solid 2px #8b8b8b;
+  border-radius: 0.3rem;
+}
+.vibilityIcon {
+  height: 19px;
+  width: auto;
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  cursor: pointer;
+}
+.vibilityIcon:hover {
+  opacity: 0.5;
+}
+.btnIngresar {
+  border: none;
+  background: none;
+  background-color: #303e54;
+  color: #f8f8f8;
+  font-size: 16px;
+  font-weight: 700;
+  height: 39px;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+  margin-top: 39px;
+}
+.btnIngresar:hover {
+  background-color: #46556b;
+}

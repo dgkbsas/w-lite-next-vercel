@@ -1,0 +1,49 @@
+.itemsTituloVermas {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tituloStep {
+  margin: 0;
+}
+
+.btnVolver {
+  font-size: 14px;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.btnVolver:hover {
+  opacity: 0.5;
+}
+
+.goBackLogo {
+  height: 15px;
+  width: auto;
+}
+.tituloModalidad-mobile {
+  display: none;
+}
+
+.containerVerMas {
+  display: flex;
+  flex-direction: column;
+}
+.containerItemVerMas {
+  width: 100%;
+  background-color: #fdfdfd;
+  border-radius: 10px;
+  padding: 16px 16px 16px 16px;
+  margin-bottom: 16px;
+  position: relative;
+}
+.tituloPreguntaVerMas {
+  font-size: 18px;
+  color: #1c1c1c;
+  font-weight: 700;
+  margin: 0;
+}

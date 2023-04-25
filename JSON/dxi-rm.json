@@ -1,0 +1,4004 @@
+[
+  {
+    "modalidad": "rm",
+    "ultimaCarga": "02 de febrero del 2023"
+  },
+  {
+    "012023": [
+      {
+        "subtitle": "AGENDAMIENTO",
+        "title": "ESPERA DE TURNOS",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "03",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Días de espera hasta el próximo turno",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-25%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "05",
+        "info01valor03benchmark": "Días de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "visible": true,
+            "pregunta": "¿Cuántos días de espera hay hasta el proximo turno?",
+            "valor01": "03",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-25%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "visible": true,
+            "pregunta": "¿Cómo se relaciona la cantidad de días de anticipación del turno con la cantidad de ausencias?",
+            "data": [
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "type": "bar",
+                "mode": "markers+text",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 1,
+                "text": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "textposition": "outside",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Cancelaron su turno",
+                "yaxis": "y2"
+              },
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [28, 17, 15, 43, 29, 14, 0, 0, 0, 0, 50, 0, 0, 100, 0],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "opacity": 1,
+                "textposition": "top center",
+                "text": ["28%", "17%", "15%", "43%", "29%", "14%", "0%", "0%", "0%", "0%", "50%", "0%", "0%", "100%", "0%"],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "% no se presento al turno",
+                "yaxis": "y"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 250,
+              "margin": {
+                "l": 40,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.07,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Cantidad de turnos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true,
+                "overlaying": "y2"
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 1,
+                "title": "Días de aniticipación al turno",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "% no presentados al turno",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+
+            "pregunta": "¿Cómo evolucionó el tiempo de espera de turno en el último año?",
+            "data": [
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "type": "scatter",
+                "y": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "marker": { "color": "#92C1D0" },
+                "mode": "lines+markers+text",
+                "opacity": 1,
+                "textposition": "top",
+                "text": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Dias de espera / mes",
+                "yaxis": "y"
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                "type": "scatter",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Promedio último mes",
+                "yaxis": "y",
+                "line": {
+                  "dash": "dot",
+                  "width": 2
+                }
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+                "type": "scatter",
+                "marker": { "color": "#49307d" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Wúru Benchmark",
+                "yaxis": "y",
+                "line": {
+                  "width": 2
+                }
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 950,
+              "height": 160,
+              "margin": {
+                "l": 30,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0
+              },
+              "bargap": 0.1,
+              "bargroupgap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Días de espera promedio",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "range": [0, 10],
+                "dtick": 2
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+            "pregunta": "De los procedimientos que más se realizan, ¿Cuál es su tiempo a próximo turno promedio?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "UROCAT",
+                "esperaTurno": "05",
+                "cantidad": "138",
+                "porcentajeDelTotal": "35"
+              },
+              {
+                "procedimiento": "CT CEREBRO, SIMPLE, SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "127",
+                "porcentajeDelTotal": "22"
+              },
+              {
+                "procedimiento": "CT PARANASAL MAXILOFACIAL S C",
+                "esperaTurno": "04",
+                "cantidad": "97",
+                "porcentajeDelTotal": "18"
+              },
+              {
+                "procedimiento": "CT TORAX SIMPLE SIN CONTRASTE",
+                "esperaTurno": "04",
+                "cantidad": "96",
+                "porcentajeDelTotal": "10"
+              },
+              {
+                "procedimiento": "ABDOMEN SUPERIOR E INF CON Y SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "76",
+                "porcentajeDelTotal": "08"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "ADMISIÓN",
+        "title": "ESPERA EN SALA",
+        "quality": "",
+        "info01": "Desde admisión al incio de estudio",
+        "info02": "Estudios programados",
+        "valor01": "19",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Minutos de espera en sala",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "+26%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación al mes anterior",
+        "valor03benchmark": "44",
+        "info01valor03benchmark": "Minutos de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿En qué momento del día hay más tiempo de espera? ¿Cómo se relaciona con el origen y volumen de demanda?",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "19",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Minutos de espera en sala",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+26%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "44",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "data": [
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "text": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "textposition": "top",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Minutos de espera",
+                "yaxis": "y"
+              },
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "type": "bar",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen turno asignado",
+                "yaxis": "y2"
+              },
+
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "markers+text",
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen demanda espontanea",
+                "yaxis": "y2"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 160,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 30,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.1,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "barmode": "stack",
+              "bargroupgap": 0.1,
+
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Minutos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 1
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "overlaying": "y",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Cuántos pacientes se retiran de la institución antes de ser atendidos?",
+            "valor01": "00",
+            "tipoEvolucion01": "neutra",
+            "infoValor01": "Pacientes se retiran por día antes de ser atendidos",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+00%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Sin variación",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Pacientes se retiran",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ]
+      },
+      {
+        "subtitle": "REALIZACIÓN DE ESTUDIOS",
+        "title": "VOLUMEN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "05",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Estudios realizados en el último mes",
+        "infoValor02": "Total último mes",
+        "valor02evolucion": "+16%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+        "valor03benchmark": "15",
+        "info01valor03benchmark": "Estudios por mes",
+        "info02valor03benchmark": "Total último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuántos estudios se hacen por equipo por día? ",
+            "valor01": "05",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Estudios realizados en el último mes",
+            "infoValor02": "Total último mes",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "15",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Total último mes",
+            "data": [
+              {
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "y": [13, 34, 30, 31, 28, 9, 6],
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "text": [13, 34, 30, 31, 28, 9, 6],
+                "textfont": {
+                  "size": 10
+                },
+                "textposition": "auto",
+                "name": "RM01"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 650,
+              "height": 120,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 0,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": false,
+              "bargap": 0.5,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿En qué horario del día hay menos volumen de estudios?¿Qué procedencia tienen?",
+            "dataDias": [
+              {
+                "dia": "LUNES",
+                "valorUtilizado": "17%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "13",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MARTES",
+                "valorUtilizado": "48%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "34",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MIÉRCOLES",
+                "valorUtilizado": "51%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "30",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "JUEVES",
+                "valorUtilizado": "55%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "31",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "VIERNES",
+                "valorUtilizado": "45%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "28",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "SABADO",
+                "valorUtilizado": "16%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "09",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "DOMINGO",
+                "valorUtilizado": "10%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "06",
+                "textoValorCantidad": "estudios realizados en total"
+              }
+            ],
+            "data01": [
+              {
+                "z": [
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 1, 2, 3, 0, 0, 0],
+                  [1, 5, 0, 1, 3, 0, 0],
+                  [3, 1, 2, 3, 2, 2, 0],
+                  [0, 6, 3, 2, 2, 2, 0],
+                  [2, 6, 2, 4, 4, 3, 0],
+                  [0, 2, 4, 1, 1, 1, 4],
+                  [1, 3, 2, 5, 2, 0, 2],
+                  [1, 1, 4, 3, 3, 1, 0],
+                  [2, 5, 4, 1, 4, 0, 0],
+                  [1, 0, 0, 3, 0, 0, 0],
+                  [0, 0, 1, 0, 0, 0, 0],
+                  [0, 0, 3, 0, 2, 0, 0],
+                  [0, 0, 0, 0, 1, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0]
+                ],
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "name": "Hospitalizado",
+                "type": "heatmap",
+                "colorscale": [
+                  [0, "#92C1D070"],
+                  [1, "#6699C3"]
+                ],
+                "hoverongaps": false,
+                "showscale": false,
+                "xgap": 1,
+                "ygap": 1
+              }
+            ],
+            "layout01": {
+              "title": "DISTRIBUCIÓN SEMANAL POR HORARIO",
+              "titlefont": {
+                "size": 8
+              },
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 300,
+              "height": 500,
+              "margin": {
+                "l": 45,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": false,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "titlefont": {
+                  "size": 10
+                },
+                "marinRight": 4,
+                "ticks": "",
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 2,
+                "zeroline": false
+              },
+              "xaxis": {
+                "ticks": "",
+
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                }
+              }
+            },
+            "data02": [
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 5, 4, 5, 3, 1, 2, 1, 1, 2, 0, 0, 0, 0, 0],
+                "name": "Hospitalizado",
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+                "name": "Hospiturg",
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 5, 1, 0, 1, 0, 0, 1, 0, 0],
+                "name": "Urgencia",
+                "type": "bar",
+                "marker": { "color": "#E7BF84" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 6, 9, 10, 12, 16, 14, 6, 10, 10, 7, 2, 0, 2, 0, 0, 0, 0, 0],
+                "name": "Ambulatorio",
+                "type": "bar",
+                "marker": { "color": "#6699C3" },
+                "orientation": "h"
+              }
+            ],
+            "layout02": {
+              "title": "CANTIDAD DE ESTUDIOS SEGÚN LA PROCEDENCIA",
+              "titlefont": {
+                "size": 8
+              },
+              "barmode": "stack",
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 400,
+              "height": 500,
+              "margin": {
+                "l": 1,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 5,
+                "zeroline": false
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Qué procedimientos ajustar para aumentar la utilización?",
+            "valor01": "",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Procedimientos en el último mes",
+            "infoValor02": "",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "year": "2023",
+            "month": "01",
+            "porcentajeDelTotal": "51%",
+            "data": [
+              {
+                "procedimiento": "CEREBRO SIN CONTRASTE",
+                "volumen": "25",
+                "duracionPlanificada": "60",
+                "duracionReal": "38",
+                "recomendada": "40",
+                "sobrestimado": "92%",
+                "subestimado": "8%",
+                "desvio": "32"
+              },
+              {
+                "procedimiento": "RM COL LUMBAR SIN CONTRASTE",
+                "volumen": "24",
+                "duracionPlanificada": "60",
+                "duracionReal": "35",
+                "recomendada": "40",
+                "sobrestimado": "100%",
+                "subestimado": "0%",
+                "desvio": "21"
+              },
+              {
+                "procedimiento": "RM COL CERV SIN CONTRASTE",
+                "volumen": "11",
+                "duracionPlanificada": "60",
+                "duracionReal": "32",
+                "recomendada": "35",
+                "sobrestimado": "80%",
+                "subestimado": "0%",
+                "desvio": "39"
+              },
+              {
+                "procedimiento": "RM CER S CONT C CONT VISTAS AD",
+                "volumen": "10",
+                "duracionPlanificada": "60",
+                "duracionReal": "56",
+                "recomendada": "60",
+                "sobrestimado": "63%",
+                "subestimado": "38%",
+                "desvio": "30"
+              },
+              {
+                "procedimiento": "ANGIO.RESO CABEZA S CONTRASTE",
+                "volumen": "7",
+                "duracionPlanificada": "41",
+                "duracionReal": "15",
+                "recomendada": "18",
+                "sobrestimado": "0%",
+                "subestimado": "100%",
+                "desvio": "2"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Existen diferencias en la cantidad de estudios que hacen mis equipos por día?¿Qué tipo de estudios se realizan en cada equipo?"
+          },
+          {
+            "pregunta": "¿Cuánto tiempo ocioso tengo por equipo por día?"
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "UTILIZACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "39%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Utilizado  del total de horas disponibles",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-01%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "42%",
+        "info01valor03benchmark": "Utilizado del total",
+        "info02valor03benchmark": "Promedio último mes"
+      },
+      {
+        "subtitle": "INFORMES",
+        "title": "TIEMPO DE ELABORACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "54",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Horas hasta disponer del informe",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-07%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "27",
+        "info01valor03benchmark": "Horas hasta disponer del informe",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuánto es el tiempo promedio de elaboración del informe?",
+            "valor01": "54",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Horas hasta disponer del informe",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-07%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "48",
+            "info01valor03benchmark": "Horas hasta disponer del informe",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "¿Cuántos informes se entregan dentro del tiempo de elaboración objetivo?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "De los médicos que más volumen informan, ¿Cuál es su porcentaje de cumplimiento?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "medicoFirmante": "Gonzalo Sierra",
+                "firmados": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "medicoFirmante": "Nereida Rios",
+                "firmados": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "medicoFirmante": "Israel Lara",
+                "firmados": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "medicoFirmante": "Michael Simons",
+                "firmados": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              },
+              {
+                "medicoFirmante": "Jorge Saavedra",
+                "firmados": "7",
+                "cumplimiento": "--",
+                "tiempoElaboracion": "140.43"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Cuál es el porcentaje de cumplimiento segun el origen del procedimiento?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "Ambulatorio",
+                "origen": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "procedimiento": "Hospitalizado",
+                "origen": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "procedimiento": "Hospiturg",
+                "origen": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "procedimiento": "Urgencia",
+                "origen": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "CUMPLIMIENTO",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "45%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "De los informes entregados a tiempo",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-13%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "92%",
+        "info01valor03benchmark": "Entrega a tiempo",
+        "info02valor03benchmark": "Promedio último mes"
+      }
+    ],
+    "122022": [
+      {
+        "subtitle": "AGENDAMIENTO",
+        "title": "ESPERA DE TURNOS",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "12",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Días de espera hasta el próximo turno",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-25%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "05",
+        "info01valor03benchmark": "Días de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "visible": true,
+            "pregunta": "¿Cuántos días de espera hay hasta el proximo turno?",
+            "valor01": "03",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-25%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "visible": true,
+            "pregunta": "¿Cómo se relaciona la cantidad de días de anticipación del turno con la cantidad de ausencias?",
+            "data": [
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "type": "bar",
+                "mode": "markers+text",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 1,
+                "text": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "textposition": "outside",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Cancelaron su turno",
+                "yaxis": "y2"
+              },
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [28, 17, 15, 43, 29, 14, 0, 0, 0, 0, 50, 0, 0, 100, 0],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "opacity": 1,
+                "textposition": "top center",
+                "text": ["28%", "17%", "15%", "43%", "29%", "14%", "0%", "0%", "0%", "0%", "50%", "0%", "0%", "100%", "0%"],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "% no se presento al turno",
+                "yaxis": "y"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 250,
+              "margin": {
+                "l": 40,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.07,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Cantidad de turnos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true,
+                "overlaying": "y2"
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 1,
+                "title": "Días de aniticipación al turno",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "% no presentados al turno",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+
+            "pregunta": "¿Cómo evolucionó el tiempo de espera de turno en el último año?",
+            "data": [
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "type": "scatter",
+                "y": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "marker": { "color": "#92C1D0" },
+                "mode": "lines+markers+text",
+                "opacity": 1,
+                "textposition": "top",
+                "text": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Dias de espera / mes",
+                "yaxis": "y"
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                "type": "scatter",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Promedio último mes",
+                "yaxis": "y",
+                "line": {
+                  "dash": "dot",
+                  "width": 2
+                }
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+                "type": "scatter",
+                "marker": { "color": "#49307d" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Wúru Benchmark",
+                "yaxis": "y",
+                "line": {
+                  "width": 2
+                }
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 950,
+              "height": 160,
+              "margin": {
+                "l": 30,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0
+              },
+              "bargap": 0.1,
+              "bargroupgap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Días de espera promedio",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "range": [0, 10],
+                "dtick": 2
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+            "pregunta": "De los procedimientos que más se realizan, ¿Cuál es su tiempo a próximo turno promedio?",
+            "year": "2022",
+            "month": "12",
+            "data": [
+              {
+                "procedimiento": "UROCAT",
+                "esperaTurno": "05",
+                "cantidad": "138",
+                "porcentajeDelTotal": "35"
+              },
+              {
+                "procedimiento": "CT CEREBRO, SIMPLE, SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "127",
+                "porcentajeDelTotal": "22"
+              },
+              {
+                "procedimiento": "CT PARANASAL MAXILOFACIAL S C",
+                "esperaTurno": "04",
+                "cantidad": "97",
+                "porcentajeDelTotal": "18"
+              },
+              {
+                "procedimiento": "CT TORAX SIMPLE SIN CONTRASTE",
+                "esperaTurno": "04",
+                "cantidad": "96",
+                "porcentajeDelTotal": "10"
+              },
+              {
+                "procedimiento": "ABDOMEN SUPERIOR E INF CON Y SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "76",
+                "porcentajeDelTotal": "08"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "ADMISIÓN",
+        "title": "ESPERA EN SALA",
+        "quality": "",
+        "info01": "Desde admisión al incio de estudio",
+        "info02": "Estudios programados",
+        "valor01": "19",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Minutos de espera en sala",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "+26%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación al mes anterior",
+        "valor03benchmark": "44",
+        "info01valor03benchmark": "Minutos de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿En qué momento del día hay más tiempo de espera? ¿Cómo se relaciona con el origen y volumen de demanda?",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "19",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Minutos de espera en sala",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+26%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "44",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "data": [
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "text": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "textposition": "top",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Minutos de espera",
+                "yaxis": "y"
+              },
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "type": "bar",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen turno asignado",
+                "yaxis": "y2"
+              },
+
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "markers+text",
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen demanda espontanea",
+                "yaxis": "y2"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 160,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 30,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.1,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "barmode": "stack",
+              "bargroupgap": 0.1,
+
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Minutos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 1
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "overlaying": "y",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Cuántos pacientes se retiran de la institución antes de ser atendidos?",
+            "valor01": "00",
+            "tipoEvolucion01": "neutra",
+            "infoValor01": "Pacientes se retiran por día antes de ser atendidos",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+00%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Sin variación",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Pacientes se retiran",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ]
+      },
+      {
+        "subtitle": "REALIZACIÓN DE ESTUDIOS",
+        "title": "VOLUMEN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "05",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Estudios realizados en el último mes",
+        "infoValor02": "Total último mes",
+        "valor02evolucion": "+16%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+        "valor03benchmark": "15",
+        "info01valor03benchmark": "Estudios por mes",
+        "info02valor03benchmark": "Total último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuántos estudios se hacen por equipo por día? ",
+            "valor01": "05",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Estudios realizados en el último mes",
+            "infoValor02": "Total último mes",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "15",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Total último mes",
+            "data": [
+              {
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "y": [13, 34, 30, 31, 28, 9, 6],
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "text": [13, 34, 30, 31, 28, 9, 6],
+                "textfont": {
+                  "size": 10
+                },
+                "textposition": "auto",
+                "name": "RM01"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 650,
+              "height": 120,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 0,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": false,
+              "bargap": 0.5,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿En qué horario del día hay menos volumen de estudios?¿Qué procedencia tienen?",
+            "dataDias": [
+              {
+                "dia": "LUNES",
+                "valorUtilizado": "17%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "13",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MARTES",
+                "valorUtilizado": "48%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "34",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MIÉRCOLES",
+                "valorUtilizado": "51%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "30",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "JUEVES",
+                "valorUtilizado": "55%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "31",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "VIERNES",
+                "valorUtilizado": "45%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "28",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "SABADO",
+                "valorUtilizado": "16%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "09",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "DOMINGO",
+                "valorUtilizado": "10%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "06",
+                "textoValorCantidad": "estudios realizados en total"
+              }
+            ],
+            "data01": [
+              {
+                "z": [
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 1, 2, 3, 0, 0, 0],
+                  [1, 5, 0, 1, 3, 0, 0],
+                  [3, 1, 2, 3, 2, 2, 0],
+                  [0, 6, 3, 2, 2, 2, 0],
+                  [2, 6, 2, 4, 4, 3, 0],
+                  [0, 2, 4, 1, 1, 1, 4],
+                  [1, 3, 2, 5, 2, 0, 2],
+                  [1, 1, 4, 3, 3, 1, 0],
+                  [2, 5, 4, 1, 4, 0, 0],
+                  [1, 0, 0, 3, 0, 0, 0],
+                  [0, 0, 1, 0, 0, 0, 0],
+                  [0, 0, 3, 0, 2, 0, 0],
+                  [0, 0, 0, 0, 1, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0]
+                ],
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "name": "Hospitalizado",
+                "type": "heatmap",
+                "colorscale": [
+                  [0, "#92C1D070"],
+                  [1, "#6699C3"]
+                ],
+                "hoverongaps": false,
+                "showscale": false,
+                "xgap": 1,
+                "ygap": 1
+              }
+            ],
+            "layout01": {
+              "title": "DISTRIBUCIÓN SEMANAL POR HORARIO",
+              "titlefont": {
+                "size": 8
+              },
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 300,
+              "height": 500,
+              "margin": {
+                "l": 45,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": false,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "titlefont": {
+                  "size": 10
+                },
+                "marinRight": 4,
+                "ticks": "",
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 2,
+                "zeroline": false
+              },
+              "xaxis": {
+                "ticks": "",
+
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                }
+              }
+            },
+            "data02": [
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 5, 4, 5, 3, 1, 2, 1, 1, 2, 0, 0, 0, 0, 0],
+                "name": "Hospitalizado",
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+                "name": "Hospiturg",
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 5, 1, 0, 1, 0, 0, 1, 0, 0],
+                "name": "Urgencia",
+                "type": "bar",
+                "marker": { "color": "#E7BF84" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 6, 9, 10, 12, 16, 14, 6, 10, 10, 7, 2, 0, 2, 0, 0, 0, 0, 0],
+                "name": "Ambulatorio",
+                "type": "bar",
+                "marker": { "color": "#6699C3" },
+                "orientation": "h"
+              }
+            ],
+            "layout02": {
+              "title": "CANTIDAD DE ESTUDIOS SEGÚN LA PROCEDENCIA",
+              "titlefont": {
+                "size": 8
+              },
+              "barmode": "stack",
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 400,
+              "height": 500,
+              "margin": {
+                "l": 1,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 5,
+                "zeroline": false
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Qué procedimientos ajustar para aumentar la utilización?",
+            "valor01": "",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Procedimientos en el último mes",
+            "infoValor02": "",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "year": "2023",
+            "month": "01",
+            "porcentajeDelTotal": "51%",
+            "data": [
+              {
+                "procedimiento": "CEREBRO SIN CONTRASTE",
+                "volumen": "25",
+                "duracionPlanificada": "60",
+                "duracionReal": "38",
+                "recomendada": "40",
+                "sobrestimado": "92%",
+                "subestimado": "8%",
+                "desvio": "32"
+              },
+              {
+                "procedimiento": "RM COL LUMBAR SIN CONTRASTE",
+                "volumen": "24",
+                "duracionPlanificada": "60",
+                "duracionReal": "35",
+                "recomendada": "40",
+                "sobrestimado": "100%",
+                "subestimado": "0%",
+                "desvio": "21"
+              },
+              {
+                "procedimiento": "RM COL CERV SIN CONTRASTE",
+                "volumen": "11",
+                "duracionPlanificada": "60",
+                "duracionReal": "32",
+                "recomendada": "35",
+                "sobrestimado": "80%",
+                "subestimado": "0%",
+                "desvio": "39"
+              },
+              {
+                "procedimiento": "RM CER S CONT C CONT VISTAS AD",
+                "volumen": "10",
+                "duracionPlanificada": "60",
+                "duracionReal": "56",
+                "recomendada": "60",
+                "sobrestimado": "63%",
+                "subestimado": "38%",
+                "desvio": "30"
+              },
+              {
+                "procedimiento": "ANGIO.RESO CABEZA S CONTRASTE",
+                "volumen": "7",
+                "duracionPlanificada": "41",
+                "duracionReal": "15",
+                "recomendada": "18",
+                "sobrestimado": "0%",
+                "subestimado": "100%",
+                "desvio": "2"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Existen diferencias en la cantidad de estudios que hacen mis equipos por día?¿Qué tipo de estudios se realizan en cada equipo?"
+          },
+          {
+            "pregunta": "¿Cuánto tiempo ocioso tengo por equipo por día?"
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "UTILIZACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "39%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Utilizado  del total de horas disponibles",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-01%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "42%",
+        "info01valor03benchmark": "Utilizado del total",
+        "info02valor03benchmark": "Promedio último mes"
+      },
+      {
+        "subtitle": "INFORMES",
+        "title": "TIEMPO DE ELABORACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "54",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Horas hasta disponer del informe",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-07%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "27",
+        "info01valor03benchmark": "Horas hasta disponer del informe",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuánto es el tiempo promedio de elaboración del informe?",
+            "valor01": "54",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Horas hasta disponer del informe",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-07%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "48",
+            "info01valor03benchmark": "Horas hasta disponer del informe",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "¿Cuántos informes se entregan dentro del tiempo de elaboración objetivo?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "De los médicos que más volumen informan, ¿Cuál es su porcentaje de cumplimiento?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "medicoFirmante": "Gonzalo Sierra",
+                "firmados": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "medicoFirmante": "Nereida Rios",
+                "firmados": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "medicoFirmante": "Israel Lara",
+                "firmados": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "medicoFirmante": "Michael Simons",
+                "firmados": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              },
+              {
+                "medicoFirmante": "Jorge Saavedra",
+                "firmados": "7",
+                "cumplimiento": "--",
+                "tiempoElaboracion": "140.43"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Cuál es el porcentaje de cumplimiento segun el origen del procedimiento?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "Ambulatorio",
+                "origen": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "procedimiento": "Hospitalizado",
+                "origen": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "procedimiento": "Hospiturg",
+                "origen": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "procedimiento": "Urgencia",
+                "origen": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "CUMPLIMIENTO",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "45%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "De los informes entregados a tiempo",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-13%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "92%",
+        "info01valor03benchmark": "Entrega a tiempo",
+        "info02valor03benchmark": "Promedio último mes"
+      }
+    ],
+    "112022": [
+      {
+        "subtitle": "AGENDAMIENTO",
+        "title": "ESPERA DE TURNOS",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "11",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Días de espera hasta el próximo turno",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-25%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "05",
+        "info01valor03benchmark": "Días de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "visible": true,
+            "pregunta": "¿Cuántos días de espera hay hasta el proximo turno?",
+            "valor01": "03",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-25%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "visible": true,
+            "pregunta": "¿Cómo se relaciona la cantidad de días de anticipación del turno con la cantidad de ausencias?",
+            "data": [
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "type": "bar",
+                "mode": "markers+text",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 1,
+                "text": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "textposition": "outside",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Cancelaron su turno",
+                "yaxis": "y2"
+              },
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [28, 17, 15, 43, 29, 14, 0, 0, 0, 0, 50, 0, 0, 100, 0],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "opacity": 1,
+                "textposition": "top center",
+                "text": ["28%", "17%", "15%", "43%", "29%", "14%", "0%", "0%", "0%", "0%", "50%", "0%", "0%", "100%", "0%"],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "% no se presento al turno",
+                "yaxis": "y"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 250,
+              "margin": {
+                "l": 40,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.07,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Cantidad de turnos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true,
+                "overlaying": "y2"
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 1,
+                "title": "Días de aniticipación al turno",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "% no presentados al turno",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+
+            "pregunta": "¿Cómo evolucionó el tiempo de espera de turno en el último año?",
+            "data": [
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "type": "scatter",
+                "y": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "marker": { "color": "#92C1D0" },
+                "mode": "lines+markers+text",
+                "opacity": 1,
+                "textposition": "top",
+                "text": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Dias de espera / mes",
+                "yaxis": "y"
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                "type": "scatter",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Promedio último mes",
+                "yaxis": "y",
+                "line": {
+                  "dash": "dot",
+                  "width": 2
+                }
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+                "type": "scatter",
+                "marker": { "color": "#49307d" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Wúru Benchmark",
+                "yaxis": "y",
+                "line": {
+                  "width": 2
+                }
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 950,
+              "height": 160,
+              "margin": {
+                "l": 30,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0
+              },
+              "bargap": 0.1,
+              "bargroupgap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Días de espera promedio",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "range": [0, 10],
+                "dtick": 2
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+            "pregunta": "De los procedimientos que más se realizan, ¿Cuál es su tiempo a próximo turno promedio?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "UROCAT",
+                "esperaTurno": "05",
+                "cantidad": "138",
+                "porcentajeDelTotal": "35"
+              },
+              {
+                "procedimiento": "CT CEREBRO, SIMPLE, SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "127",
+                "porcentajeDelTotal": "22"
+              },
+              {
+                "procedimiento": "CT PARANASAL MAXILOFACIAL S C",
+                "esperaTurno": "04",
+                "cantidad": "97",
+                "porcentajeDelTotal": "18"
+              },
+              {
+                "procedimiento": "CT TORAX SIMPLE SIN CONTRASTE",
+                "esperaTurno": "04",
+                "cantidad": "96",
+                "porcentajeDelTotal": "10"
+              },
+              {
+                "procedimiento": "ABDOMEN SUPERIOR E INF CON Y SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "76",
+                "porcentajeDelTotal": "08"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "ADMISIÓN",
+        "title": "ESPERA EN SALA",
+        "quality": "",
+        "info01": "Desde admisión al incio de estudio",
+        "info02": "Estudios programados",
+        "valor01": "19",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Minutos de espera en sala",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "+26%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación al mes anterior",
+        "valor03benchmark": "44",
+        "info01valor03benchmark": "Minutos de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿En qué momento del día hay más tiempo de espera? ¿Cómo se relaciona con el origen y volumen de demanda?",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "19",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Minutos de espera en sala",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+26%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "44",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "data": [
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "text": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "textposition": "top",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Minutos de espera",
+                "yaxis": "y"
+              },
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "type": "bar",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen turno asignado",
+                "yaxis": "y2"
+              },
+
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "markers+text",
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen demanda espontanea",
+                "yaxis": "y2"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 160,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 30,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.1,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "barmode": "stack",
+              "bargroupgap": 0.1,
+
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Minutos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 1
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "overlaying": "y",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Cuántos pacientes se retiran de la institución antes de ser atendidos?",
+            "valor01": "00",
+            "tipoEvolucion01": "neutra",
+            "infoValor01": "Pacientes se retiran por día antes de ser atendidos",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+00%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Sin variación",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Pacientes se retiran",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ]
+      },
+      {
+        "subtitle": "REALIZACIÓN DE ESTUDIOS",
+        "title": "VOLUMEN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "05",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Estudios realizados en el último mes",
+        "infoValor02": "Total último mes",
+        "valor02evolucion": "+16%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+        "valor03benchmark": "15",
+        "info01valor03benchmark": "Estudios por mes",
+        "info02valor03benchmark": "Total último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuántos estudios se hacen por equipo por día? ",
+            "valor01": "05",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Estudios realizados en el último mes",
+            "infoValor02": "Total último mes",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "15",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Total último mes",
+            "data": [
+              {
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "y": [13, 34, 30, 31, 28, 9, 6],
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "text": [13, 34, 30, 31, 28, 9, 6],
+                "textfont": {
+                  "size": 10
+                },
+                "textposition": "auto",
+                "name": "RM01"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 650,
+              "height": 120,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 0,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": false,
+              "bargap": 0.5,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿En qué horario del día hay menos volumen de estudios?¿Qué procedencia tienen?",
+            "dataDias": [
+              {
+                "dia": "LUNES",
+                "valorUtilizado": "17%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "13",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MARTES",
+                "valorUtilizado": "48%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "34",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MIÉRCOLES",
+                "valorUtilizado": "51%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "30",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "JUEVES",
+                "valorUtilizado": "55%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "31",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "VIERNES",
+                "valorUtilizado": "45%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "28",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "SABADO",
+                "valorUtilizado": "16%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "09",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "DOMINGO",
+                "valorUtilizado": "10%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "06",
+                "textoValorCantidad": "estudios realizados en total"
+              }
+            ],
+            "data01": [
+              {
+                "z": [
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 1, 2, 3, 0, 0, 0],
+                  [1, 5, 0, 1, 3, 0, 0],
+                  [3, 1, 2, 3, 2, 2, 0],
+                  [0, 6, 3, 2, 2, 2, 0],
+                  [2, 6, 2, 4, 4, 3, 0],
+                  [0, 2, 4, 1, 1, 1, 4],
+                  [1, 3, 2, 5, 2, 0, 2],
+                  [1, 1, 4, 3, 3, 1, 0],
+                  [2, 5, 4, 1, 4, 0, 0],
+                  [1, 0, 0, 3, 0, 0, 0],
+                  [0, 0, 1, 0, 0, 0, 0],
+                  [0, 0, 3, 0, 2, 0, 0],
+                  [0, 0, 0, 0, 1, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0]
+                ],
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "name": "Hospitalizado",
+                "type": "heatmap",
+                "colorscale": [
+                  [0, "#92C1D070"],
+                  [1, "#6699C3"]
+                ],
+                "hoverongaps": false,
+                "showscale": false,
+                "xgap": 1,
+                "ygap": 1
+              }
+            ],
+            "layout01": {
+              "title": "DISTRIBUCIÓN SEMANAL POR HORARIO",
+              "titlefont": {
+                "size": 8
+              },
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 300,
+              "height": 500,
+              "margin": {
+                "l": 45,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": false,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "titlefont": {
+                  "size": 10
+                },
+                "marinRight": 4,
+                "ticks": "",
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 2,
+                "zeroline": false
+              },
+              "xaxis": {
+                "ticks": "",
+
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                }
+              }
+            },
+            "data02": [
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 5, 4, 5, 3, 1, 2, 1, 1, 2, 0, 0, 0, 0, 0],
+                "name": "Hospitalizado",
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+                "name": "Hospiturg",
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 5, 1, 0, 1, 0, 0, 1, 0, 0],
+                "name": "Urgencia",
+                "type": "bar",
+                "marker": { "color": "#E7BF84" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 6, 9, 10, 12, 16, 14, 6, 10, 10, 7, 2, 0, 2, 0, 0, 0, 0, 0],
+                "name": "Ambulatorio",
+                "type": "bar",
+                "marker": { "color": "#6699C3" },
+                "orientation": "h"
+              }
+            ],
+            "layout02": {
+              "title": "CANTIDAD DE ESTUDIOS SEGÚN LA PROCEDENCIA",
+              "titlefont": {
+                "size": 8
+              },
+              "barmode": "stack",
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 400,
+              "height": 500,
+              "margin": {
+                "l": 1,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 5,
+                "zeroline": false
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Qué procedimientos ajustar para aumentar la utilización?",
+            "valor01": "",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Procedimientos en el último mes",
+            "infoValor02": "",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "year": "2023",
+            "month": "01",
+            "porcentajeDelTotal": "51%",
+            "data": [
+              {
+                "procedimiento": "CEREBRO SIN CONTRASTE",
+                "volumen": "25",
+                "duracionPlanificada": "60",
+                "duracionReal": "38",
+                "recomendada": "40",
+                "sobrestimado": "92%",
+                "subestimado": "8%",
+                "desvio": "32"
+              },
+              {
+                "procedimiento": "RM COL LUMBAR SIN CONTRASTE",
+                "volumen": "24",
+                "duracionPlanificada": "60",
+                "duracionReal": "35",
+                "recomendada": "40",
+                "sobrestimado": "100%",
+                "subestimado": "0%",
+                "desvio": "21"
+              },
+              {
+                "procedimiento": "RM COL CERV SIN CONTRASTE",
+                "volumen": "11",
+                "duracionPlanificada": "60",
+                "duracionReal": "32",
+                "recomendada": "35",
+                "sobrestimado": "80%",
+                "subestimado": "0%",
+                "desvio": "39"
+              },
+              {
+                "procedimiento": "RM CER S CONT C CONT VISTAS AD",
+                "volumen": "10",
+                "duracionPlanificada": "60",
+                "duracionReal": "56",
+                "recomendada": "60",
+                "sobrestimado": "63%",
+                "subestimado": "38%",
+                "desvio": "30"
+              },
+              {
+                "procedimiento": "ANGIO.RESO CABEZA S CONTRASTE",
+                "volumen": "7",
+                "duracionPlanificada": "41",
+                "duracionReal": "15",
+                "recomendada": "18",
+                "sobrestimado": "0%",
+                "subestimado": "100%",
+                "desvio": "2"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Existen diferencias en la cantidad de estudios que hacen mis equipos por día?¿Qué tipo de estudios se realizan en cada equipo?"
+          },
+          {
+            "pregunta": "¿Cuánto tiempo ocioso tengo por equipo por día?"
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "UTILIZACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "39%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Utilizado  del total de horas disponibles",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-01%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "42%",
+        "info01valor03benchmark": "Utilizado del total",
+        "info02valor03benchmark": "Promedio último mes"
+      },
+      {
+        "subtitle": "INFORMES",
+        "title": "TIEMPO DE ELABORACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "54",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Horas hasta disponer del informe",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-07%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "27",
+        "info01valor03benchmark": "Horas hasta disponer del informe",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuánto es el tiempo promedio de elaboración del informe?",
+            "valor01": "54",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Horas hasta disponer del informe",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-07%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "48",
+            "info01valor03benchmark": "Horas hasta disponer del informe",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "¿Cuántos informes se entregan dentro del tiempo de elaboración objetivo?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "De los médicos que más volumen informan, ¿Cuál es su porcentaje de cumplimiento?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "medicoFirmante": "Gonzalo Sierra",
+                "firmados": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "medicoFirmante": "Nereida Rios",
+                "firmados": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "medicoFirmante": "Israel Lara",
+                "firmados": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "medicoFirmante": "Michael Simons",
+                "firmados": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              },
+              {
+                "medicoFirmante": "Jorge Saavedra",
+                "firmados": "7",
+                "cumplimiento": "--",
+                "tiempoElaboracion": "140.43"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Cuál es el porcentaje de cumplimiento segun el origen del procedimiento?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "Ambulatorio",
+                "origen": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "procedimiento": "Hospitalizado",
+                "origen": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "procedimiento": "Hospiturg",
+                "origen": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "procedimiento": "Urgencia",
+                "origen": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "CUMPLIMIENTO",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "45%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "De los informes entregados a tiempo",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-13%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "92%",
+        "info01valor03benchmark": "Entrega a tiempo",
+        "info02valor03benchmark": "Promedio último mes"
+      }
+    ],
+    "102022": [
+      {
+        "subtitle": "AGENDAMIENTO",
+        "title": "ESPERA DE TURNOS",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "10",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Días de espera hasta el próximo turno",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-25%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "05",
+        "info01valor03benchmark": "Días de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "visible": true,
+            "pregunta": "¿Cuántos días de espera hay hasta el proximo turno?",
+            "valor01": "03",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Días de espera hasta el próximo turno",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-25%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Días de espera",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "visible": true,
+            "pregunta": "¿Cómo se relaciona la cantidad de días de anticipación del turno con la cantidad de ausencias?",
+            "data": [
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "type": "bar",
+                "mode": "markers+text",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 1,
+                "text": [7, 2, 2, 3, 2, 1, 0, 0, 0, 0, 1, 0, 0, 1, 0],
+                "textposition": "outside",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Cancelaron su turno",
+                "yaxis": "y2"
+              },
+              {
+                "x": [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15],
+                "y": [28, 17, 15, 43, 29, 14, 0, 0, 0, 0, 50, 0, 0, 100, 0],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "opacity": 1,
+                "textposition": "top center",
+                "text": ["28%", "17%", "15%", "43%", "29%", "14%", "0%", "0%", "0%", "0%", "50%", "0%", "0%", "100%", "0%"],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "% no se presento al turno",
+                "yaxis": "y"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 250,
+              "margin": {
+                "l": 40,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.07,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Cantidad de turnos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true,
+                "overlaying": "y2"
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 1,
+                "title": "Días de aniticipación al turno",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "% no presentados al turno",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+
+            "pregunta": "¿Cómo evolucionó el tiempo de espera de turno en el último año?",
+            "data": [
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "type": "scatter",
+                "y": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "marker": { "color": "#92C1D0" },
+                "mode": "lines+markers+text",
+                "opacity": 1,
+                "textposition": "top",
+                "text": [4, 5, 4, 5, 4, 5, 4, 5, 4, 5, 5, 3],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Dias de espera / mes",
+                "yaxis": "y"
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3, 3],
+                "type": "scatter",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Promedio último mes",
+                "yaxis": "y",
+                "line": {
+                  "dash": "dot",
+                  "width": 2
+                }
+              },
+              {
+                "x": ["Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre", "Enero"],
+                "y": [5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5],
+                "type": "scatter",
+                "marker": { "color": "#49307d" },
+                "mode": "lines",
+                "opacity": 1,
+                "textposition": "auto",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Wúru Benchmark",
+                "yaxis": "y",
+                "line": {
+                  "width": 2
+                }
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 950,
+              "height": 160,
+              "margin": {
+                "l": 30,
+                "b": 30,
+                "r": 0,
+                "t": 0
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0
+              },
+              "bargap": 0.1,
+              "bargroupgap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Días de espera promedio",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "range": [0, 10],
+                "dtick": 2
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "visible": true,
+            "pregunta": "De los procedimientos que más se realizan, ¿Cuál es su tiempo a próximo turno promedio?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "UROCAT",
+                "esperaTurno": "05",
+                "cantidad": "138",
+                "porcentajeDelTotal": "35"
+              },
+              {
+                "procedimiento": "CT CEREBRO, SIMPLE, SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "127",
+                "porcentajeDelTotal": "22"
+              },
+              {
+                "procedimiento": "CT PARANASAL MAXILOFACIAL S C",
+                "esperaTurno": "04",
+                "cantidad": "97",
+                "porcentajeDelTotal": "18"
+              },
+              {
+                "procedimiento": "CT TORAX SIMPLE SIN CONTRASTE",
+                "esperaTurno": "04",
+                "cantidad": "96",
+                "porcentajeDelTotal": "10"
+              },
+              {
+                "procedimiento": "ABDOMEN SUPERIOR E INF CON Y SIN CONT",
+                "esperaTurno": "04",
+                "cantidad": "76",
+                "porcentajeDelTotal": "08"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "ADMISIÓN",
+        "title": "ESPERA EN SALA",
+        "quality": "",
+        "info01": "Desde admisión al incio de estudio",
+        "info02": "Estudios programados",
+        "valor01": "19",
+        "tipoEvolucion01": "buena",
+        "infoValor01": "Minutos de espera en sala",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "+26%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación al mes anterior",
+        "valor03benchmark": "44",
+        "info01valor03benchmark": "Minutos de espera",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿En qué momento del día hay más tiempo de espera? ¿Cómo se relaciona con el origen y volumen de demanda?",
+            "info01": "Desde admisión al incio de estudio",
+            "info02": "Estudios programados",
+            "valor01": "19",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Minutos de espera en sala",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+26%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "44",
+            "info01valor03benchmark": "Minutos de espera",
+            "info02valor03benchmark": "Promedio último mes",
+            "data": [
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "type": "scatter",
+                "mode": "lines+markers+text",
+                "marker": { "color": "#6699C3" },
+                "text": [12, 18, 24, 24, 28, 35, 6, 18, 9, 24, 0, 49],
+                "textposition": "top",
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Minutos de espera",
+                "yaxis": "y"
+              },
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "type": "bar",
+                "marker": { "color": "#EAAB7E" },
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [8, 11, 14, 19, 16, 8, 11, 12, 15, 3, 0, 5],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen turno asignado",
+                "yaxis": "y2"
+              },
+
+              {
+                "x": ["07", "08", "09", "10", "11", "12", "13", "14", "15", "16", "17", "18"],
+                "y": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "mode": "markers+text",
+                "opacity": 0.6,
+                "textposition": "auto",
+                "text": [2, 1, 1, 2, 3, 1, 2, 1, 1, 1, 0, 0],
+                "textfont": {
+                  "size": 10
+                },
+                "name": "Origen demanda espontanea",
+                "yaxis": "y2"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 980,
+              "height": 160,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 30,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": true,
+              "legend": {
+                "x": 1.1,
+                "y": 0
+              },
+              "bargap": 0.2,
+              "barmode": "stack",
+              "bargroupgap": 0.1,
+
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Minutos",
+                "titlefont": {
+                  "size": 10
+                },
+                "rangemode": "tozero",
+                "autorange": true
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 1
+              },
+              "dragmode": false,
+              "yaxis2": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "overlaying": "y",
+                "side": "right"
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Cuántos pacientes se retiran de la institución antes de ser atendidos?",
+            "valor01": "00",
+            "tipoEvolucion01": "neutra",
+            "infoValor01": "Pacientes se retiran por día antes de ser atendidos",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "+00%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Sin variación",
+            "valor03benchmark": "05",
+            "info01valor03benchmark": "Pacientes se retiran",
+            "info02valor03benchmark": "Promedio último mes"
+          }
+        ]
+      },
+      {
+        "subtitle": "REALIZACIÓN DE ESTUDIOS",
+        "title": "VOLUMEN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "05",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Estudios realizados en el último mes",
+        "infoValor02": "Total último mes",
+        "valor02evolucion": "+16%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "sube",
+        "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+        "valor03benchmark": "15",
+        "info01valor03benchmark": "Estudios por mes",
+        "info02valor03benchmark": "Total último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuántos estudios se hacen por equipo por día? ",
+            "valor01": "05",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "Estudios realizados en el último mes",
+            "infoValor02": "Total último mes",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación al mes anterior",
+            "valor03benchmark": "15",
+            "info01valor03benchmark": "Estudios por día",
+            "info02valor03benchmark": "Total último mes",
+            "data": [
+              {
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "y": [13, 34, 30, 31, 28, 9, 6],
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "text": [13, 34, 30, 31, 28, 9, 6],
+                "textfont": {
+                  "size": 10
+                },
+                "textposition": "auto",
+                "name": "RM01"
+              }
+            ],
+            "layout": {
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 650,
+              "height": 120,
+              "margin": {
+                "l": 34,
+                "b": 15,
+                "r": 0,
+                "t": 10
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "clickmode": "none",
+              "showlegend": false,
+              "bargap": 0.5,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                },
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "dragmode": false
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿En qué horario del día hay menos volumen de estudios?¿Qué procedencia tienen?",
+            "dataDias": [
+              {
+                "dia": "LUNES",
+                "valorUtilizado": "17%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "13",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MARTES",
+                "valorUtilizado": "48%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "34",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "MIÉRCOLES",
+                "valorUtilizado": "51%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "30",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "JUEVES",
+                "valorUtilizado": "55%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "31",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "VIERNES",
+                "valorUtilizado": "45%",
+                "evaluacionValor": "buena",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "28",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "SABADO",
+                "valorUtilizado": "16%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "09",
+                "textoValorCantidad": "estudios realizados en total"
+              },
+              {
+                "dia": "DOMINGO",
+                "valorUtilizado": "10%",
+                "evaluacionValor": "mala",
+                "textoValor": "utilizado del total de la capacidad",
+                "valorCantidadEstudios": "06",
+                "textoValorCantidad": "estudios realizados en total"
+              }
+            ],
+            "data01": [
+              {
+                "z": [
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 1, 2, 3, 0, 0, 0],
+                  [1, 5, 0, 1, 3, 0, 0],
+                  [3, 1, 2, 3, 2, 2, 0],
+                  [0, 6, 3, 2, 2, 2, 0],
+                  [2, 6, 2, 4, 4, 3, 0],
+                  [0, 2, 4, 1, 1, 1, 4],
+                  [1, 3, 2, 5, 2, 0, 2],
+                  [1, 1, 4, 3, 3, 1, 0],
+                  [2, 5, 4, 1, 4, 0, 0],
+                  [1, 0, 0, 3, 0, 0, 0],
+                  [0, 0, 1, 0, 0, 0, 0],
+                  [0, 0, 3, 0, 2, 0, 0],
+                  [0, 0, 0, 0, 1, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0],
+                  [0, 0, 0, 0, 0, 0, 0]
+                ],
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": ["Lun", "Mar", "Mier", "Juev", "Vier", "Sab", "Dom"],
+                "name": "Hospitalizado",
+                "type": "heatmap",
+                "colorscale": [
+                  [0, "#92C1D070"],
+                  [1, "#6699C3"]
+                ],
+                "hoverongaps": false,
+                "showscale": false,
+                "xgap": 1,
+                "ygap": 1
+              }
+            ],
+            "layout01": {
+              "title": "DISTRIBUCIÓN SEMANAL POR HORARIO",
+              "titlefont": {
+                "size": 8
+              },
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 300,
+              "height": 500,
+              "margin": {
+                "l": 45,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": false,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "titlefont": {
+                  "size": 10
+                },
+                "marinRight": 4,
+                "ticks": "",
+                "tickfont": {
+                  "size": 10
+                },
+                "ticksuffix": " hs.",
+                "dtick": 2,
+                "zeroline": false
+              },
+              "xaxis": {
+                "ticks": "",
+
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                }
+              }
+            },
+            "data02": [
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 1, 2, 2, 5, 4, 5, 3, 1, 2, 1, 1, 2, 0, 0, 0, 0, 0],
+                "name": "Hospitalizado",
+                "type": "bar",
+                "marker": { "color": "#92C1D0" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 0, 0, 1, 0, 1, 2, 0, 0, 0, 0, 0, 0, 0, 0],
+                "name": "Hospiturg",
+                "type": "bar",
+                "marker": { "color": "#EA9ADD" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 2, 1, 5, 1, 0, 1, 0, 0, 1, 0, 0],
+                "name": "Urgencia",
+                "type": "bar",
+                "marker": { "color": "#E7BF84" },
+                "orientation": "h"
+              },
+              {
+                "y": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23],
+                "x": [0, 0, 0, 0, 0, 0, 6, 9, 10, 12, 16, 14, 6, 10, 10, 7, 2, 0, 2, 0, 0, 0, 0, 0],
+                "name": "Ambulatorio",
+                "type": "bar",
+                "marker": { "color": "#6699C3" },
+                "orientation": "h"
+              }
+            ],
+            "layout02": {
+              "title": "CANTIDAD DE ESTUDIOS SEGÚN LA PROCEDENCIA",
+              "titlefont": {
+                "size": 8
+              },
+              "barmode": "stack",
+              "font": {
+                "color": "#1c1c1c"
+              },
+              "width": 400,
+              "height": 500,
+              "margin": {
+                "l": 1,
+                "b": 30,
+                "r": 0,
+                "t": 25
+              },
+              "paper_bgcolor": "rgba(0,0,0,0)",
+              "plot_bgcolor": "rgba(0,0,0,0)",
+              "hovermode": true,
+              "dragmode": false,
+              "showlegend": true,
+              "legend": {
+                "x": 1,
+                "y": 0,
+                "font": {
+                  "size": 10
+                }
+              },
+              "clickmode": "none",
+              "bargap": 0.1,
+              "yaxis": {
+                "tickfont": {
+                  "size": 10
+                }
+              },
+              "xaxis": {
+                "title": "Estudios",
+                "titlefont": {
+                  "size": 10
+                },
+                "tickfont": {
+                  "size": 10
+                },
+                "dtick": 5,
+                "zeroline": false
+              }
+            },
+            "config": {
+              "responsive": true,
+              "displayModeBar": false
+            }
+          },
+          {
+            "pregunta": "¿Qué procedimientos ajustar para aumentar la utilización?",
+            "valor01": "",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Procedimientos en el último mes",
+            "infoValor02": "",
+            "valor02evolucion": "+16%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Aumentó en relación  al mes anterior",
+            "year": "2023",
+            "month": "01",
+            "porcentajeDelTotal": "51%",
+            "data": [
+              {
+                "procedimiento": "CEREBRO SIN CONTRASTE",
+                "volumen": "25",
+                "duracionPlanificada": "60",
+                "duracionReal": "38",
+                "recomendada": "40",
+                "sobrestimado": "92%",
+                "subestimado": "8%",
+                "desvio": "32"
+              },
+              {
+                "procedimiento": "RM COL LUMBAR SIN CONTRASTE",
+                "volumen": "24",
+                "duracionPlanificada": "60",
+                "duracionReal": "35",
+                "recomendada": "40",
+                "sobrestimado": "100%",
+                "subestimado": "0%",
+                "desvio": "21"
+              },
+              {
+                "procedimiento": "RM COL CERV SIN CONTRASTE",
+                "volumen": "11",
+                "duracionPlanificada": "60",
+                "duracionReal": "32",
+                "recomendada": "35",
+                "sobrestimado": "80%",
+                "subestimado": "0%",
+                "desvio": "39"
+              },
+              {
+                "procedimiento": "RM CER S CONT C CONT VISTAS AD",
+                "volumen": "10",
+                "duracionPlanificada": "60",
+                "duracionReal": "56",
+                "recomendada": "60",
+                "sobrestimado": "63%",
+                "subestimado": "38%",
+                "desvio": "30"
+              },
+              {
+                "procedimiento": "ANGIO.RESO CABEZA S CONTRASTE",
+                "volumen": "7",
+                "duracionPlanificada": "41",
+                "duracionReal": "15",
+                "recomendada": "18",
+                "sobrestimado": "0%",
+                "subestimado": "100%",
+                "desvio": "2"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Existen diferencias en la cantidad de estudios que hacen mis equipos por día?¿Qué tipo de estudios se realizan en cada equipo?"
+          },
+          {
+            "pregunta": "¿Cuánto tiempo ocioso tengo por equipo por día?"
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "UTILIZACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "39%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Utilizado  del total de horas disponibles",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-01%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "42%",
+        "info01valor03benchmark": "Utilizado del total",
+        "info02valor03benchmark": "Promedio último mes"
+      },
+      {
+        "subtitle": "INFORMES",
+        "title": "TIEMPO DE ELABORACIÓN",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "54",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "Horas hasta disponer del informe",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-07%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "27",
+        "info01valor03benchmark": "Horas hasta disponer del informe",
+        "info02valor03benchmark": "Promedio último mes",
+        "verMas": [
+          {
+            "pregunta": "¿Cuánto es el tiempo promedio de elaboración del informe?",
+            "valor01": "54",
+            "tipoEvolucion01": "buena",
+            "infoValor01": "Horas hasta disponer del informe",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-07%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "baja",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "48",
+            "info01valor03benchmark": "Horas hasta disponer del informe",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "¿Cuántos informes se entregan dentro del tiempo de elaboración objetivo?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes"
+          },
+          {
+            "pregunta": "De los médicos que más volumen informan, ¿Cuál es su porcentaje de cumplimiento?",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "medicoFirmante": "Gonzalo Sierra",
+                "firmados": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "medicoFirmante": "Nereida Rios",
+                "firmados": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "medicoFirmante": "Israel Lara",
+                "firmados": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "medicoFirmante": "Michael Simons",
+                "firmados": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              },
+              {
+                "medicoFirmante": "Jorge Saavedra",
+                "firmados": "7",
+                "cumplimiento": "--",
+                "tiempoElaboracion": "140.43"
+              }
+            ]
+          },
+          {
+            "pregunta": "¿Cuál es el porcentaje de cumplimiento segun el origen del procedimiento?",
+            "valor01": "45%",
+            "tipoEvolucion01": "mala",
+            "infoValor01": "De los informes entregados a tiempo",
+            "infoValor02": "Promedio último mes",
+            "valor02evolucion": "-13%",
+            "tipoEvolucion02": "neutra",
+            "tipoIcono": "sube",
+            "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+            "valor03benchmark": "65%",
+            "info01valor03benchmark": "Entrega a tiempo",
+            "info02valor03benchmark": "Promedio último mes",
+            "year": "2023",
+            "month": "01",
+            "data": [
+              {
+                "procedimiento": "Ambulatorio",
+                "origen": "87",
+                "cumplimiento": "48",
+                "tiempoElaboracion": "47.32"
+              },
+              {
+                "procedimiento": "Hospitalizado",
+                "origen": "22",
+                "cumplimiento": "45",
+                "tiempoElaboracion": "35.41"
+              },
+              {
+                "procedimiento": "Hospiturg",
+                "origen": "18",
+                "cumplimiento": "44",
+                "tiempoElaboracion": "72.44"
+              },
+              {
+                "procedimiento": "Urgencia",
+                "origen": "16",
+                "cumplimiento": "50",
+                "tiempoElaboracion": "33.29"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "subtitle": "",
+        "title": "CUMPLIMIENTO",
+        "quality": "",
+        "info01": "",
+        "info02": "",
+        "valor01": "45%",
+        "tipoEvolucion01": "mala",
+        "infoValor01": "De los informes entregados a tiempo",
+        "infoValor02": "Promedio último mes",
+        "valor02evolucion": "-13%",
+        "tipoEvolucion02": "neutra",
+        "tipoIcono": "baja",
+        "inforValor02evolucion": "Disminuyó en relación  al mes anterior",
+        "valor03benchmark": "92%",
+        "info01valor03benchmark": "Entrega a tiempo",
+        "info02valor03benchmark": "Promedio último mes"
+      }
+    ]
+  }
+]

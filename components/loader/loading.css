@@ -1,0 +1,37 @@
+.container-spinner {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  height: 50vh;
+}
+
+.spinner {
+  border: 3px solid rgba(0, 0, 0, 0.1);
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border-left-color: #cd1626;
+  animation: spin 1s ease infinite;
+}
+
+.logoSVG-loading {
+  position: absolute;
+  height: 40px;
+  filter: grayscale(100%);
+  opacity: 0.1;
+  margin-right: 2px;
+  margin-bottom: 2px;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
