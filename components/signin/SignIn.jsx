@@ -14,7 +14,7 @@ import visibleIcon from "../..//assets/statics/icons/visible.svg";
 import notVisibleIcon from "../..//assets/statics/icons/notvisible.svg";
 
 export default function SignIn() {
-  const { signIn, error, setError } = useContext(AuthContext);
+  const { signIn, error } = useContext(AuthContext);
   const [visiblePass, setVisiblePass] = useState(false);
 
   return (

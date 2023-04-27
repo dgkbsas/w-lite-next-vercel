@@ -13,7 +13,7 @@ import logoPrint from "@/assets/statics/icons/print_FILL0_wght400_GRAD0_opsz48.s
 import logoShare from "@/assets/statics/icons/share_FILL0_wght400_GRAD0_opsz48.svg";
 
 export default function TopBarHeader() {
-  const { sitios, setSitioSelected, sitioSelected, sectionSelected, tabName } = useContext(AuthContext);
+  const { sitiosInstitucion, setSitioSelected, sitioSelected, sectionSelected, tabName } = useContext(AuthContext);
 
   // Print and Share functions
   function functionPrint(event) {
@@ -41,7 +41,7 @@ export default function TopBarHeader() {
         {sectionSelected ? <h5 className="tituloTab">{sectionSelected}</h5> : <h5 className="tituloTab">INICIO</h5>}
         {tabName ? <h1 className="tituloSubTab">{tabName}</h1> : <h1 className="tituloSubTab">Página de Inicio</h1>}
         <div className="selectorSitio">
-          {sitios.map((item, index) => (
+          {sitiosInstitucion.map((item, index) => (
             <div key={index} className="containerSitio">
               <label htmlFor={item.label}>
                 <input

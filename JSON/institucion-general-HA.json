@@ -1,0 +1,106 @@
+{
+  "institucion": "HOSPITAL ALEMAN",
+  "instiName": "HA",
+  "instiValue": "HA",
+  "homePage": { "homeNav": "/inicio/dxivisualizaciones", "homeSection": "ANALYTICS", "homeName": "Visualizaciones", "homeLabel": "Visualizaciones" },
+  "navLinksImagenes": [
+    {
+      "label": "Visualizaciones",
+      "route": "/inicio/dxivisualizaciones",
+      "labelChica": "Vis",
+      "title": "Visualizaciones",
+      "section": "ANALYTICS",
+      "disabled": false
+    },
+    {
+      "label": "Calidad de Datos",
+      "route": "/inicio/dxicalidaddatos",
+      "labelChica": "Dat",
+      "title": "Informe de Calidad de Datos",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Informe de Rendimiento",
+      "route": "/inicio/dxirendimiento",
+      "labelChica": "Ren",
+      "title": "Informe de Rendimiento",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Estimador de Tiempos",
+      "route": "/dxiestimador",
+      "labelChica": "Est",
+      "title": "Estimador de Tiempos",
+      "section": "ANALYTICS",
+      "disabled": true
+    }
+  ],
+  "navLinksQx": [
+    {
+      "label": "Visualizaciones",
+      "route": "/inicio/qxvisualizaciones",
+      "labelChica": "Vis",
+      "title": "Visualizaciones",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Calidad de Datos",
+      "route": "/inicio/qxcalidaddatos",
+      "labelChica": "Dat",
+      "title": "Informe de Calidad de Datos",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Informe de Rendimiento",
+      "route": "/inicio/qxrendimiento",
+      "labelChica": "Ren",
+      "title": "Informe de Rendimiento",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Estimador de Tiempos",
+      "route": "/qxestimador",
+      "labelChica": "Est",
+      "title": "Estimador de Tiempos",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Diagnóstico",
+      "route": "/qxdiagnostico",
+      "labelChica": "Diag",
+      "title": "Diagnóstico",
+      "section": "ANALYTICS",
+      "disabled": true
+    },
+    {
+      "label": "Comparativas Internas",
+      "route": "/qxestimador",
+      "labelChica": "Bench",
+      "title": "Comparativas Internas",
+      "section": "ANALYTICS",
+      "disabled": true
+    }
+  ],
+  "sitios": [
+    {
+      "id": "01",
+      "name": "sitiosBar",
+      "value": "sitio01",
+      "titleSitio": "Hospital Aleman",
+      "mesAnalizado": [
+        { "mesValue": "012023", "mesTitle": "Enero 2023" },
+        { "mesValue": "122022", "mesTitle": "Diciembre 2022" },
+        { "mesValue": "112022", "mesTitle": "Noviembre 2022" },
+        { "mesValue": "102022", "mesTitle": "Octubre 2022" },
+        { "mesValue": "092022", "mesTitle": "Septiembre 2022" },
+        { "mesValue": "082022", "mesTitle": "Agosto 2022" }
+      ]
+    }
+  ]
+}

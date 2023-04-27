@@ -7,23 +7,33 @@ import "@/styles/visualizaciones.css";
 //context
 import { AuthContext } from "@/context/AuthContext";
 
+//components
+import Loading from "@/components/loader/Loading";
+
 export default function DxiPage({ children }) {
   //get Context values and functions
   const { dataItemsDxI, mesesAnalizados, mesSeleccionado, setMesSeleccionado, setMesSeleccionadoNombre, handleSetModalidad, dataDownloaded } =
     useContext(AuthContext);
 
   const [selectMesDisbled, setSelectMesDisabled] = useState(true);
-  const [ultimoMes, setUltimoMes] = useState(mesesAnalizados[0]);
+  const [ultimoMes, setUltimoMes] = useState([]);
   const [restoMeses, setRestoMeses] = useState([]);
-  const [saveMesSeleccionado, setSaveMesSeleccionado] = useState(mesesAnalizados[1].mesValue);
-  const [saveMesSeleccionadoNombre, setSaveMesSeleccionadoNombre] = useState(mesesAnalizados[1].mesTitle);
+  const [saveMesSeleccionado, setSaveMesSeleccionado] = useState("");
+  const [saveMesSeleccionadoNombre, setSaveMesSeleccionadoNombre] = useState("");
 
   useEffect(() => {
     //Split "meses"
     let cantMeses = mesesAnalizados.length;
     let mesesRestantes = mesesAnalizados.slice(1, cantMeses);
+    let bufferUltimoMes = mesesAnalizados[0];
+    if (mesesAnalizados[0]) {
+      setUltimoMes(bufferUltimoMes);
+      setSaveMesSeleccionado(mesesAnalizados[1].mesValue);
+      setSaveMesSeleccionadoNombre(mesesAnalizados[1].mesTitle);
+    }
+
     setRestoMeses(mesesRestantes);
-  }, [mesesAnalizados]);
+  }, [dataItemsDxI, mesesAnalizados, dataDownloaded]);
 
   //Enable or disable Select
   function handleClickMes(event) {
@@ -72,7 +82,7 @@ export default function DxiPage({ children }) {
                     type="radio"
                     name="mesAnalizado"
                     id="ultimo"
-                    value={ultimoMes.mesValue}
+                    value={ultimoMes && ultimoMes.mesValue}
                     className="radioButtonSitio"
                     defaultChecked
                     onClick={handleClickMes}
@@ -107,7 +117,9 @@ export default function DxiPage({ children }) {
             {children}
             <br />
           </div>
-        ) : null}
+        ) : (
+          <Loading />
+        )}
       </section>
     </>
   );
