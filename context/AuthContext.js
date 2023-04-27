@@ -133,6 +133,7 @@ export const AuthContextProvider = ({ children }) => {
       setUserName("Usuario CHSF");
       getDataFromDB("CHSF-cliente");
       router.push(`/inicio/dxivisualizaciones`);
+      setError(false);
     } else {
       setError(true);
     }
@@ -144,6 +145,7 @@ export const AuthContextProvider = ({ children }) => {
       setUserName("Usuario HA");
       getDataFromDB("HA-cliente");
       router.push(`/inicio/dxivisualizaciones`);
+      setError(false);
     } else {
       setError(true);
     }
@@ -158,6 +160,7 @@ export const AuthContextProvider = ({ children }) => {
     setUserLogged(false);
     setDataDownloaded(false);
     router.push("/signin");
+    setError(false);
   };
 
   //function to set selected "Modalidad"
