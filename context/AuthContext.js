@@ -17,6 +17,15 @@ import dxiRM_HA from "../JSON/dxi-rm-HA.json";
 export const AuthContextProvider = ({ children }) => {
   const router = useRouter();
 
+  const NEXT_PUBLIC_USER_CHSF = "demo_chsf@wuru.analytic.site";
+  const NEXT_PUBLIC_ACCESS_KEY_CHSF = "l4kfOFAFfz.chsf";
+  const NEXT_PUBLIC_ACCESS_TOKEN_CHSF =
+    "-wPbil5auCDY/YUmlNJMJv3yLVSRPHsp24Pj=RmSC=l1yyQFvRDYe47DWaaokCBQy2-Wxavq-ixEAODdAKh!kQV5OY0Awa/grENVUEWoZgU?bq6oFwE0z1TGhZQwxl?LlZ29wlQYBzEz-qPZmn8OBkrih4OZxE7PLcPWo6JnCaDF66-lTiqhkzQfO4p?QacP8mZSv-Q/xmYfZUzf=7qbVu37TAxUz5hbqfKRn41aNESb4dVKzBsOXr5fHOvmYSN8";
+  const NEXT_PUBLIC_USER_HA = "demo_ha@wuru.analytics.site";
+  const NEXT_PUBLIC_ACCESS_KEY_HA = "jYID6w07sJ.ha";
+  const NEXT_PUBLIC_ACCESS_TOKEN_HA =
+    "p!4lrQIqxbmbhO6my!!BEhjVHqgCI40?lWVc2Hkm3fp85OrdrIMu7uj=cDc8hVplQzwORo=jq/PUCQw7j9NylG8GpuJOtE3X0ZW791Hasbw6orK5wsrX9WExQx!dr8d5A33V!EuJXXacSq/CixI0CXG5pDQvje22?KiuDb3UQ-=CHMMShwzGx7tC?x8zMIosRM7J3a9sO1plf4LY?f9WwcqA/W9rSmTulEgPfq?EtxT-tWLHG!!ITCasJM6?qqex";
+
   //Variables user and log
   const [userLogged, setUserLogged] = useState(null);
   const [userName, setUserName] = useState("");
@@ -116,22 +125,22 @@ export const AuthContextProvider = ({ children }) => {
 
   //Sign in function
   const signIn = (email, password) => {
-    if (email === process.env.NEXT_PUBLIC_USER_CHSF && password === process.env.NEXT_PUBLIC_ACCESS_KEY_CHSF) {
+    if (email === NEXT_PUBLIC_USER_CHSF && password === NEXT_PUBLIC_ACCESS_KEY_CHSF) {
       console.log("true logged", "CHSF");
       sessionStorage.setItem("userLogged", true);
       sessionStorage.setItem("userMail", email);
-      sessionStorage.setItem("token", process.env.NEXT_PUBLIC_ACCESS_TOKEN_CHSF);
+      sessionStorage.setItem("token", NEXT_PUBLIC_ACCESS_TOKEN_CHSF);
       setUserName("Usuario CHSF");
       getDataFromDB("CHSF-cliente");
       router.push(`/inicio/dxivisualizaciones`);
     } else {
       setError(true);
     }
-    if (email === process.env.NEXT_PUBLIC_USER_HA && password === process.env.NEXT_PUBLIC_ACCESS_KEY_HA) {
+    if (email === NEXT_PUBLIC_USER_HA && password === NEXT_PUBLIC_ACCESS_KEY_HA) {
       console.log("true logged", "HA");
       sessionStorage.setItem("userLogged", true);
       sessionStorage.setItem("userMail", email);
-      sessionStorage.setItem("token", process.env.NEXT_PUBLIC_ACCESS_TOKEN_HA);
+      sessionStorage.setItem("token", NEXT_PUBLIC_ACCESS_TOKEN_HA);
       setUserName("Usuario HA");
       getDataFromDB("HA-cliente");
       router.push(`/inicio/dxivisualizaciones`);
@@ -159,18 +168,15 @@ export const AuthContextProvider = ({ children }) => {
   useEffect(() => {
     if (sessionStorage.getItem("userLogged") === "true") {
       console.log("true logged");
-      if (
-        sessionStorage.getItem("token") === process.env.NEXT_PUBLIC_ACCESS_TOKEN_CHSF ||
-        sessionStorage.getItem("token") === process.env.NEXT_PUBLIC_ACCESS_TOKEN_HA
-      ) {
+      if (sessionStorage.getItem("token") === NEXT_PUBLIC_ACCESS_TOKEN_CHSF || sessionStorage.getItem("token") === NEXT_PUBLIC_ACCESS_TOKEN_HA) {
         console.log("true token");
-        if (sessionStorage.getItem("token") === process.env.NEXT_PUBLIC_ACCESS_TOKEN_CHSF) {
+        if (sessionStorage.getItem("token") === NEXT_PUBLIC_ACCESS_TOKEN_CHSF) {
           console.log("token CHSF");
           setUserName("Usuario CHSF");
           getDataFromDB("CHSF-cliente");
           router.push("/inicio/dxivisualizaciones");
         }
-        if (sessionStorage.getItem("token") === process.env.NEXT_PUBLIC_ACCESS_TOKEN_HA) {
+        if (sessionStorage.getItem("token") === NEXT_PUBLIC_ACCESS_TOKEN_HA) {
           console.log("token HA");
           setUserName("Usuario HA");
           getDataFromDB("HA-cliente");
