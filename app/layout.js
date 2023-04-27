@@ -2,7 +2,7 @@
 import "../styles/globals.css";
 
 export const metadata = {
-  title: "WÚRU LITE",
+  title: "WÚRU ANALYTICS",
   description: "Wúru Analytics",
 };
 
@@ -12,9 +12,6 @@ import { AuthContextProvider } from "@/context/AuthContext";
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <head>
-        <title>WÚRU ANALYTICS</title>
-      </head>
       <body>
         <AuthContextProvider>{children}</AuthContextProvider>
       </body>
